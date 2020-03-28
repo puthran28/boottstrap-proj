@@ -1,0 +1,114 @@
+body{
+    font-family: 'Arvo', serif;
+}
+
+
+.insert{
+    height: 700px;
+    width: 100%;
+    background-image: url(photo.jpg);
+    color: white;
+    
+  }
+  
+  .hdr{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.height-80{
+    min-height: 80vh;
+}
+
+.title-underline{
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+.about-picture{
+    background: url(profile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+span{
+    font-family: cursive;
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  
+  }
+
+  input[type=text],select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(68, 118, 226);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(25, 143, 211);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  
+  input[type=date]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(55, 93, 197);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit]{
+    background-color: rgb(207, 71, 116);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=reset]{
+    background-color:  rgb(207, 71, 116);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type=reset]:hover {
+    background-color: #45a049;
+  }
+  
+  .cont{
+    width: 50%;
+    border-radius: 5px;
+    background-color: lightblue
+    padding: 20px;
+  }
