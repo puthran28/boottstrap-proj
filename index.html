@@ -13,11 +13,14 @@
     <!--main css-->
     <link rel="stylesheet" href="main.css">
 
-	<script>
+    <script src="./js/scrollreveal.min.js"></script>
+
+    <script>
         var shiftWindow = function() { scrollBy(0, -50) };
         window.addEventListener("hashchange", shiftWindow);
         function load() { if (window.location.hash) shiftWindow(); }
       </script>
+
 </head>
 <body>
 
@@ -29,7 +32,8 @@
         </div>
     </div>
 
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         
         <span class="navbar-text">CODER</span>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navmenu">
@@ -57,6 +61,7 @@
         </ul>
         </div>
     </nav>
+
 
     <section id="about" class="bg-info">
         <div class="container-fluid">
@@ -90,7 +95,7 @@
                         </div>
                         <div class="checkbox-item d-flex">
                             <i class="fas fa-check fa-3x mt-3 p-2 bg-warning mr-3 align-self-center"></i>
-                            <p class="mt-4"><a class="text-light lead" href="https://www.linkedin.com/in/mangesh-puthran-11264b156/">LinkedIn</a></p>
+                            <p class="mt-4"><a class="text-light lead" href="https://www.linkedin.com/in/mangesh-puthran-11264b156/">LinedIn</a></p>
 
                         </div>
 
@@ -131,13 +136,12 @@
                     <i class="fas fa-database fa-5x text-danger"></i>
                     <h3 class="text-uppercase my-3">Dbms</h3>
                     <p>Thorough with Database Management System concepts like ACID properties, Data Modeling, Relational Data Model, Normalization, Transaction Processing, Concurrency Control.</p>
-                      </div>
+                </div>
             </div>
 
         </div>
 
     </section>
-
 
     <section id="project" class="bg-warning py-5">
         <div class="container-fluid">
@@ -151,7 +155,7 @@
                 </div>
             </div>
 
-            <div class="row">
+          <div class="row">
                 <div class="col-md-6 mt-4">
                     <h2>1. Hospital Appointment System</h2>
     <ul>
@@ -176,8 +180,8 @@
 
                 </div>
             </div>
+            </div>
 
-        </div>
     </section>
 
 
@@ -194,21 +198,21 @@
 
             <div class="row bg-success">
                 
-                <div class="col align-items-left justify-content-left">
+                <div class="col">
                     <!-- <h3>Contact Form</h3> -->
 
-  <form action="results.html" method="GET" onSubmit="alert('I WILL REVERT TO YOU SHORTLY');" >
+  <form onSubmit="alert('I WILL REVERT TO YOU SHORTLY');" >
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <input type="text" id="lname" placeholder="Your last name..">
 
 	 <label for="email">Email</label>
-     <input autocomplete="off" type="email" name="email" required>
+     <input autocomplete="off" type="email" required>
 	
 	<label for="date">Dob</label>
-    <input type="date" name="date" id="date" min="3-13-2020" required>
+    <input type="date" id="date" min="3-13-2020" required>
 	<div>
     <label for="sex">Sex</label>
     <select id="sex" name="sex">
@@ -225,7 +229,7 @@
         </div>
     </section>
 
-<section>
+<section class=" mt-10">
     <div class="container-fluid">
         <div class="row bg-info mt-10">
             <div class="col">
@@ -244,14 +248,20 @@
 
 
 
+    <script>
+        window.sr=ScrollReveal();
+        sr.reveal('.container',{duration:1000});
+        
+        sr.reveal('.container-fluid',{duration:1000});
+        
+        sr.reveal('.row',{duration:1000});
+        
+        sr.reveal('.cols3',{duration:1000});
+    </script>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
-
-
 
     <!--bootstrap js-->
     <script src="./js/bootstrap.bundle.min.js"></script>
